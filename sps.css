@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+}
+.heading {
+    color: aliceblue;
+    background-color: black;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.choice :hover {
+    border: 3px solid black;
+}
+.image {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.scoreboard {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+p {
+    font-size: 25px;
+}
+#user {
+    display: flex;
+    justify-content: center;
+}
+#comp {
+    display: flex;
+    justify-content: center;
+}
+.msgcontainer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+#msg {
+    font-size: 20px;
+}
