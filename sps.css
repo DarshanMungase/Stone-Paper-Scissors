@@ -48,3 +48,14 @@ p {
 #msg {
     font-size: 20px;
 }
+.newgamecontainer {
+    margin-top: 1.5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.newgame {
+    width: 10%;
+    background-color: black;
+    color: aliceblue;
+    border-color: black;
+}
