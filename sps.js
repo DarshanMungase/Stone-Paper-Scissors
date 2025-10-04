@@ -2,6 +2,7 @@ const choices = document.querySelectorAll(".choice") ;
 const userscore = document.querySelector("#user") ;
 const compscore = document.querySelector("#comp") ;
 const msg = document.querySelector("#msg") ;
+const newgame = document.querySelector(".newgame") ;
 const gaincompchoice = () => {
     const options = ["stone","paper","scissors"] ;
     const randIdx = Math.floor(Math.random()*3) ;
@@ -35,4 +36,10 @@ choices.forEach((choice) => {
         const userchoice = choice.getAttribute("id") ;
         playgame(userchoice) ;
     })
+
+})
+newgame.addEventListener("click", () => {
+    compscore.innerText = 0 ;
+    userscore.innerText = 0 ;
+    msg.innerText = "Play Your Move!" ;
 })
