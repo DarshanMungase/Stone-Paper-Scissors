@@ -4,33 +4,33 @@
 .heading {
     color: aliceblue;
     background-color: black;
-    height: 75px;
+    height: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 img {
-    height: 150px;
-    width: 150px;
+    height: 13vw;
+    width: 13vw;
     object-fit: cover;
     border-radius: 50%;
-    border: 1px solid black;
+    border: 0.2vh solid black;
 }
 .choice :hover {
-    border: 3px solid black;
+    border: 0.5vh solid black;
 }
 .image {
-    margin-top: 100px;
+    margin-top: 15vh;
     display: flex;
     justify-content: space-evenly;
 }
 .scoreboard {
-    margin-top: 80px;
+    margin-top: 10vh;
     display: flex;
     justify-content: space-evenly;
 }
 p {
-    font-size: 25px;
+    font-size: 4vh;
 }
 #user {
     display: flex;
@@ -41,21 +41,22 @@ p {
     justify-content: center;
 }
 .msgcontainer {
-    margin-top: 50px;
+    margin-top: 7vh;
     display: flex;
     justify-content: center;
 }
 #msg {
-    font-size: 20px;
+    font-size: 3.5vh;
 }
 .newgamecontainer {
-    margin-top: 1.5%;
+    margin-top: 3vh;
     display: flex;
     justify-content: space-evenly;
 }
 .newgame {
-    width: 10%;
+    width: 8rem;
     background-color: black;
     color: aliceblue;
     border-color: black;
 }
+
